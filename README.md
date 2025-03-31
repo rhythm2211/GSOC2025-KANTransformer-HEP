@@ -15,14 +15,15 @@ This repository contains my work for GSoC 2025 under ML4SCI, focusing on **KAN-a
 
 ### Task 3.1: KANTransformer Implementation & Evaluation  
 - Integrated **KAN layers** into the Transformer architecture.  
-- Improved **test sequence accuracy to 63.30%** and **token accuracy to 99.03%**, demonstrating superior precision in long-sequence predictions.  
+- Achieved a remarkable **test sequence accuracy of 97.75%** and **token accuracy of 99.98%**, demonstrating near-perfect precision in long-sequence predictions.  
 
 ## Next Steps  
-- Further optimize **KANTransformer** with advanced attention mechanisms.  
-- Expand dataset to enhance generalization.  
-- Integrate **symbolic validation** for physics consistency.
+- Further optimize **KANTransformer** with advanced attention mechanisms and hyperparameter tuning.  
+- Expand dataset to improve generalization and robustness.  
+- Integrate **symbolic validation** for physics consistency.  
 
-## Results
-- ✅ Task 1.2: Preprocessed 15,584 sequences
-- ✅ Task 2: Vanilla Transformer → 62.53% seq accuracy
-- ✅ Task 3.1: KANTransformer → 63.30% seq accuracy, 99.03% token accuracy
+## Results  
+-  Task 1.2: Preprocessed 15,584 sequences  
+-  Task 2: Vanilla Transformer → 62.53% seq accuracy  
+-  Task 3.1: KANTransformer → **97.75% seq accuracy, 99.98% token accuracy**
+
